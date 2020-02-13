@@ -2,6 +2,7 @@
 title: Login Google en Android
 lang: es
 tags: android, google
+date: 2019-10-23 12:00
 ---
 
 Tutorial para realizar Log In, autenticación con Google en una aplicación Android, además de la obtención de información del usuario como nombres, correo electrónico, id y fotografía de perfil.
