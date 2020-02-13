@@ -17,7 +17,7 @@ extension Node where Context: HTML.BodyContext {
                             .class("navbar-item"),
                             .href("/"),
                             .img(
-                                .src("/images/favicon.png")
+                                .src("/images/icon.png")
                             )
                         ),
                         .div(

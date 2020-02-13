@@ -7,9 +7,9 @@ tags: java
 
 Dada una gramática libre de contexto, limpia dicha gramática eliminando las producciones renombradoras, las producciones inútiles, las producciones inaccesibles, realiza estas opciones por separado o las hace todas en una.
 
-![Pantalla Principal Limpiador de Gramáticas en Java](/images/limpiador-gramaticas-java-1.png)
+![Pantalla Principal Limpiador de Gramáticas en Java](/images/java/grammar-cleaner/limpiador-gramaticas-java-1.png)
 
-![Creación de gramáticas](/images/limpiador-gramaticas-java-2.png)
+![Creación de gramáticas](/images/java/grammar-cleaner/limpiador-gramaticas-java-2.png)
 
 Limpiador de Gramáticas es aplicación sencilla con interfaz gráfica elaborado para la materia de Lenguajes Formales de la carrera de Informática de la *Universidad Mayor de San Andrés* en diciembre del 2009.
 

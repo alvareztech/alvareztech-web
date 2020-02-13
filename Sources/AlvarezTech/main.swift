@@ -20,8 +20,8 @@ struct AlvarezTech: Website {
     
     // Update these properties to configure your website:
     var url = URL(string: "https://alvarez.tech")!
-    var name = "AlvarezTech"
-    var description = "Tutorials, code and more."
+    var name = "ALVAREZ.tech"
+    var description = "iOS, Android, Java, Kotlin & Swift tutorials, videos, projects, code and more."
     var language: Language { .english }
     var imagePath: Path? { nil }
 }
