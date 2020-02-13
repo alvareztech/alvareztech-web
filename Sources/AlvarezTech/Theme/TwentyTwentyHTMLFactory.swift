@@ -11,8 +11,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                 .viewport(.accordingToDevice),
                 .stylesheet("TwentyTwentyStyles.css"),
                 .stylesheet("styles.css"),
-                .script(.src("/essential.js")),
-                .link(.href("https://fonts.googleapis.com/css?family=Fira+Code&display=swap"), .rel(.stylesheet))
+                .script(.src("/essential.js"))
             ),
             .body(
                 .header(for: context, selectedSection: nil),
