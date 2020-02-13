@@ -1,6 +1,4 @@
-h1 {
-   color: yellow
-}
+@import "TwentyTwentyStyles.css";
 
 pre {
     margin-bottom: 1.5em;

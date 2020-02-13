@@ -19,7 +19,8 @@ extension Node where Context: HTML.BodyContext {
                         .href("/feed.rss")
                     )
                 )
-            )
+            ),
+            .script(.src("/essential.js"))
         )
     }
 }
