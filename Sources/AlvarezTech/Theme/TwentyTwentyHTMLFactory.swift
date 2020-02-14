@@ -74,6 +74,9 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                             .class("content is-medium"),
                             .h1(.text(item.title)),
                             .smallTags(item: item, on: context.site),
+                            .unwrap(item.video) {
+                                .videoPlayer(for: $0)
+                            },
                             .contentBody(item.body)
                         ),
                         .dateTags(item: item, on: context.site)

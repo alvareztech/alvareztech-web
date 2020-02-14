@@ -2,11 +2,10 @@
 title: Firebase: Database Realtime para Android
 lang: es
 tags: android, firebase
+video.youTube: peQ9ATXwPwg
 ---
 
 Tutorial para la construcción de una aplicación Android para modificar y obtener actualizaciones en tiempo real de datos con Firebase.
-
-[YouTube](https://www.youtube.com/watch?v=peQ9ATXwPwg)
 
 ## Dependencia
 

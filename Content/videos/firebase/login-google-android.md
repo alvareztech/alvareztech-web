@@ -2,10 +2,10 @@
 title: Firebase: Login Google en Android
 lang: es
 tags: android, firebase, google
+video.youTube: rPzHPNOt7Js
 ---
-Implementarás un login con Google en Firebase en tu aplicación Android. Además obtendrás la información del usuario directamente desde Firebase, nombre, correo y fotografía.
 
-[YouTube](https://www.youtube.com/watch?v=rPzHPNOt7Js)
+Implementarás un login con Google en Firebase en tu aplicación Android. Además obtendrás la información del usuario directamente desde Firebase, nombre, correo y fotografía.
 
 ### Aprenderás
 

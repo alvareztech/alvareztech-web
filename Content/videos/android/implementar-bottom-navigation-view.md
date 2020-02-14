@@ -2,10 +2,9 @@
 title: Implementar Bottom Navigation View en Android para la navegación
 lang: es
 tags: android
+video.youTube: aTPwcWQIckw
 ---
 Implementación de un `BottomNavigationView` en una aplicación Android. Componente disponible desde la librería de compatibilidad 25.
-
-<iframe width="480" height="270" src="https://www.youtube.com/embed/aTPwcWQIckw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Aprenderás
 * Usar el componente `BottomNavigationView`

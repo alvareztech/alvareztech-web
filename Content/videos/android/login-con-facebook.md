@@ -2,11 +2,10 @@
 title: Login Facebook en Android
 lang: es
 tags: android, facebook
+video.youTube: 1HgM_vc-rSc
 ---
 
 Implementarás un inicio de sesión (Log In) con Facebook en una aplicación Android. Además de obtener la información del usuario y mostrarla.
-
-[YouTube](https://www.youtube.com/watch?v=1HgM_vc-rSc)
 
 > Actualizado, además de seguir el proceso del video, tiene el código completo de la versión para obtener la información del usuario y el correo usando Graph API de Facebook.
 
