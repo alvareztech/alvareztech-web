@@ -75,7 +75,10 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                             .h1(.text(item.title)),
                             .smallTags(item: item, on: context.site),
                             .unwrap(item.video) {
-                                .videoPlayer(for: $0)
+                                .div(
+                                    .class("video-container"),
+                                    .videoPlayer(for: $0)
+                                )
                             },
                             .contentBody(item.body)
                         ),
