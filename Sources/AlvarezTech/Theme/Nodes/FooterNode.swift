@@ -4,7 +4,7 @@ import Plot
 extension Node where Context: HTML.BodyContext {
     
     static func footer(for site: AlvarezTech) -> Node {
-        return .footer(
+        .footer(
             .class("footer"),
             .div(
                 .class("content has-text-centered"),

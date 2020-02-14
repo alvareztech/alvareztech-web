@@ -75,7 +75,8 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                             .h1(.text(item.title)),
                             .smallTags(item: item, on: context.site),
                             .contentBody(item.body)
-                        )
+                        ),
+                        .dateTags(item: item, on: context.site)
                     )
                 ),
                 .footer(for: context.site)

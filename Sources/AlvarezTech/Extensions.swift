@@ -4,7 +4,7 @@ extension Date {
     
     var literal: String {
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd"
+        formatter.dateFormat = "MMM dd, yyyy"
         return formatter.string(from: self)
     }
 }

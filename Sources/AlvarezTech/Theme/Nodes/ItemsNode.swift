@@ -4,7 +4,7 @@ import Plot
 extension Node where Context: HTML.BodyContext {
     
     static func items(for items: [Item<AlvarezTech>], on site: AlvarezTech) -> Node {
-        return .section(
+        .section(
             .class("section"),
             .div(
                 .class("container"),
