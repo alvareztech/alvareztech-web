@@ -1,0 +1,171 @@
+---
+title: Gestionar permisos para Android 6.0, API 23
+description: En este tutorial verás como gestionar los permisos para las versiones Android 6.0 o superior.
+tags: android, java
+date: 2017-04-23 08:00
+lang: es
+---
+
+Cuando se presentó Android 6.0 (API 23) se introdujo una nueva forma de gestionar los permisos en tiempo de ejecución, es decir cuando la aplicación lo requiera, no antes de instalar como se hacia en versiones anteriores.
+
+En este tutorial verás como gestionar los permisos para las versiones Android 6.0 o superior.
+
+![Dialog](http://res.cloudinary.com/alvareztech/image/upload/v1492702303/labs/gestionar-permisos-android6-api23/permisodialog.png)
+
+__Aprenderás__
+
+* Gestionar permisos para Android 6.0 (API 23)
+* Conocer las categorías de permisos
+* Generar métodos `override` con Android Studio
+
+## Categorías de permisos
+
+Existen dos categorías de permisos:
+
+* Permisos normales
+* Permisos riesgosos
+
+Los __permisos normales__ son aquellos que se otorgan por defecto, es decir no es necesario solicitarlo.
+
+Los __permisos riesgosos__ son aquellos que acceden a información confidencial del usuario.
+
+Los permisos riesgosos son los siguientes, si vas a utilizar alguno debes de gestionarlos como se muestra en este *lab*.
+
+| Grupos                | Permisos      |
+|-----------------------|---------------|
+| CALENDAR	            | READ_CALENDAR |
+|                       | WRITE_CALENDAR |
+| CAMERA	            | CAMERA |
+| CONTACTS	            | READ_CONTACTS |
+|                       | WRITE_CONTACTS |
+|                       | GET_ACCOUNTS   |
+| LOCATION	            | ACCESS_FINE_LOCATION |
+|                       | ACCESS_COARSE_LOCATION |
+| MICROPHONE	        | RECORD_AUDIO |
+| PHONE	                | READ_PHONE_STATE |
+|                       | CALL_PHONE |
+|                       | READ_CALL_LOG |
+|                       | WRITE_CALL_LOG |
+|                       | ADD_VOICEMAIL |
+|                       | USE_SIP |
+|                       | PROCESS_OUTGOING_CALLS |
+| SENSORS	            | BODY_SENSORS |
+| SMS	                | SEND_SMS |
+|                       | RECEIVE_SMS |
+|                       | READ_SMS |
+|                       | RECEIVE_WAP_PUSH |
+|                       | RECEIVE_MMS |
+| STORAGE	            | READ_EXTERNAL_STORAGE |
+|                       | WRITE_EXTERNAL_STORAGE |
+
+## Verificar si tienes permiso
+
+Antes de poder ejecutar el código que necesita un permiso, es poder preguntar si lo tenemos.
+
+Por ejemplo si quieres hacer una aplicación que tome una foto, antes de escribir el código para obtener la foto deberías preguntar si tienes el permiso de cámara. Si quieres obtener la localización del usuario antes de escribir ese código deberías de preguntar si tienes permiso de localización (`ACCESS_FINE_LOCATION` o `ACCESS_COARSE_LOCATION`)
+
+Ya existe el método para preguntar si tenemos un permiso en concreto, ese es el método `checkSelfPermission(...)`
+
+### Método `checkSelfPermission(...)`
+
+Es un método de la clase `ContextCompat` el cual recibe como parámetro, el contexto y el permiso de cual se quiere preguntar, por ejemplo:
+
+```java
+ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
+```
+
+Este método puede retornar una de estas dos cosas:
+
+* `PackageManager.PERMISSION_GRANTED` si tienes permiso
+* `PackageManager.PERMISSION_DENIED` si no lo tienes
+
+Escribiendo una pregunta por ejemplo:
+
+```java
+if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+  // Si tenemos permiso de localización fina
+}
+```
+
+Dentro de ese `if` ya podrías colocar tu código para obtener la localización por ejemplo.
+
+**¿Qué pasa si este `if` no se cumple?** Debemos de solicitar el permiso con un diálogo.
+
+## Solicitar permiso
+
+Si tenemos el método para solicitar el permiso y se llama `requestPermissions(...)` lo que pasa es que es un poco delicado el asunto.
+
+Imagina que una aplicación mala te pidiera con un diálogo la solicitud de permiso cada rato, que si apareciera el diálogo y tu dijeras "Rechazar" volviera a aparecer, al final para hacer que se cierre de una vez posiblemente termines concediendo el permiso.
+
+Un problema ¿verdad?. Lo bueno es que Android solo nos permite ejecutarlo una vez.
+
+**¿Qué pasa la segunda vez?** Para las siguientes veces tenemos otro método que se encarga de preguntar "si ya solicitamos permiso antes".
+
+### Método `shouldShowRequestPermissionRationale(...)`
+
+Retorna `true` o `false` si ya pedimos permiso antes, si lo ponemos en una pregunta:
+
+* Por verdad podríamos mostrar un mensaje al usuario diciendo que "Vaya a configuraciones para otorgar el permiso X" o un botón para ir directo a configuraciones y que el usuario lo active manualmente.
+
+* Por falso quiere decir que nunca hicimos que el diálogo apareciera por lo tanto podemos usar el método ya mencionado `requestPermissions(...)`.
+
+### Método `requestPermissions(...)`
+
+Se pueden solicitar uno o más permisos a la vez con este método, por ejemplo para solicitar el permiso de localización:
+
+```java
+ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 777);
+```
+
+El número `777` es un código que usamos porque cuando solicitas que aparezca el diálogo el usuario puede "Rechazar" o "Permitir" y necesitamos un método que agarre la respuesta.
+
+Uniendo estos métodos, se vería así:
+
+![Unión](http://res.cloudinary.com/alvareztech/image/upload/v1492705010/labs/gestionar-permisos-android6-api23/ifs.png)
+
+> Evidentemente el número `777` puede ser cambiado por una constante de Java. Necesitamos un código por que tu aplicación puede necesitar varios permisos en diferentes momentos y debes de poder identificar al cual el usuario dijo si y a cual no.
+
+## Respuesta de la solicitud
+
+Como dijimos, necesitas un método para manejar el resultado, un lugar donde lleguen las respuestas.
+
+La buena noticia es que puedes generar ese método automáticamente así:
+
+* Click derecho en donde quieres generar el código
+
+![Generar 1](http://res.cloudinary.com/alvareztech/image/upload/v1492701077/labs/gestionar-permisos-android6-api23/generate.png)
+
+* Seleccionas `Override Methods`
+
+![Generar 2](http://res.cloudinary.com/alvareztech/image/upload/v1492702933/labs/gestionar-permisos-android6-api23/override.png)
+
+* Empiezas a escribir las primeras letras de `onRequestPermissionsResult`
+
+![Generar 3](http://res.cloudinary.com/alvareztech/image/upload/v1492701341/labs/gestionar-permisos-android6-api23/onrequestpermission.png)
+
+* Presionas `OK` y ya tienes el siguiente método generado:
+
+![Result](http://res.cloudinary.com/alvareztech/image/upload/v1492701544/labs/gestionar-permisos-android6-api23/requestpermissionresult_code.png)
+
+
+### Método `onRequestPermissionsResult(...)`
+
+Dentro del método:
+
+1. Preguntamos si es del código que solicitamos (`777` en este caso).
+2. Si en el array de resultados hay al menos un resultado.
+3. Y si la respuesta que llegó es `PackageManager.PERMISSION_GRANTED`, es decir si el usuario presionó "Permitir".
+
+El método queda así:
+
+![](http://res.cloudinary.com/alvareztech/image/upload/v1492703396/labs/gestionar-permisos-android6-api23/onrequestall.png)
+
+## Uniendo
+
+Si colocamos todas las preguntas y métodos lado a lado, se ve así:
+
+![](http://res.cloudinary.com/alvareztech/image/upload/v1492705535/labs/gestionar-permisos-android6-api23/all.png)
+
+En el primer `if` donde tenemos permiso, ahí debería de estar tu código, en este ejemplo para obtener la ubicación del usuario.
+
+Con estas validaciones y métodos, ya puedes probar tu aplicación y olvidarte de los problemas con Android 6.0 y los permisos manuales.
