@@ -16,6 +16,14 @@
     height: 100%;
 }
 
+.content img {
+    display: block;
+    margin: auto auto 1em;
+    max-width: 100%;
+    min-height: 2em;
+    max-height: 40em;
+}
+
 pre {
     margin-bottom: 1.5em;
     background-color: #1a1a1a;
