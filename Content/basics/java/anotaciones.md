@@ -1,5 +1,6 @@
 ---
 title: Annotations o anotaciones en Java
+description: Una anotación sirve para dar información al compilador o a las herramientas de desarrollo para hacer algo.
 lang: es
 tags: java
 ---

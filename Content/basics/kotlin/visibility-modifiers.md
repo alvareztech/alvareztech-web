@@ -1,6 +1,6 @@
 ---
 title: Visibility Modifiers
-description: Visibility Modifiers
+description: En Kotlin todo es public por defecto. Pero existen otros tipos de acceso para restringir la visibilidad.
 tags: kotlin
 ---
 
