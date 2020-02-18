@@ -95,7 +95,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
             .head(for: page, on: context.site),
             .body(
                 .header(for: context, selectedSection: nil),
-                .bigTitle(page.title),
+                .bigTitle(page.title, subtitle: page.description),
                 .section(
                     .class("section"),
                     .div(
