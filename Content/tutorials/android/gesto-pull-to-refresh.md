@@ -4,7 +4,6 @@ description: Android tiene el componente nativo para lograr esto, SwipeRefreshLa
 date: 2017-09-04 08:00
 tags: android, java
 lang: es
-image: tutorials/android/gestionar-permisos-android6-api23.png
 ---
 
 Si tienes una lista en tu aplicación donde se cargan los datos y estos requieran actualización cuando el usuario lo requiera, la opción más popular suele ser hacer un *Pull to Refresh*.

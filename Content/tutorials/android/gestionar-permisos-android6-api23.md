@@ -4,6 +4,7 @@ description: En este tutorial verás como gestionar los permisos para las versio
 tags: android, java
 date: 2017-04-23 08:00
 lang: es
+image: tutorials/android/gestionar-permisos-android6-api23.png
 ---
 
 Cuando se presentó Android 6.0 (API 23) se introdujo una nueva forma de gestionar los permisos en tiempo de ejecución, es decir cuando la aplicación lo requiera, no antes de instalar como se hacia en versiones anteriores.
@@ -29,34 +30,114 @@ Los __permisos normales__ son aquellos que se otorgan por defecto, es decir no e
 
 Los __permisos riesgosos__ son aquellos que acceden a información confidencial del usuario.
 
-Los permisos riesgosos son los siguientes, si vas a utilizar alguno debes de gestionarlos como se muestra en este *lab*.
+Los _permisos riesgosos_ son los siguientes, si vas a utilizar alguno debes gestionarlos como se muestra en este tutorial.
 
-| Grupos                | Permisos      |
-|-----------------------|---------------|
-| CALENDAR	            | READ_CALENDAR |
-|                       | WRITE_CALENDAR |
-| CAMERA	            | CAMERA |
-| CONTACTS	            | READ_CONTACTS |
-|                       | WRITE_CONTACTS |
-|                       | GET_ACCOUNTS   |
-| LOCATION	            | ACCESS_FINE_LOCATION |
-|                       | ACCESS_COARSE_LOCATION |
-| MICROPHONE	        | RECORD_AUDIO |
-| PHONE	                | READ_PHONE_STATE |
-|                       | CALL_PHONE |
-|                       | READ_CALL_LOG |
-|                       | WRITE_CALL_LOG |
-|                       | ADD_VOICEMAIL |
-|                       | USE_SIP |
-|                       | PROCESS_OUTGOING_CALLS |
-| SENSORS	            | BODY_SENSORS |
-| SMS	                | SEND_SMS |
-|                       | RECEIVE_SMS |
-|                       | READ_SMS |
-|                       | RECEIVE_WAP_PUSH |
-|                       | RECEIVE_MMS |
-| STORAGE	            | READ_EXTERNAL_STORAGE |
-|                       | WRITE_EXTERNAL_STORAGE |
+<table>
+    <thead>
+        <tr>
+            <th>Grupos</th>
+            <th>Permisos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>CALENDAR</td>
+            <td>READ_CALENDAR</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>WRITE_CALENDAR</td>
+        </tr>
+        <tr>
+            <td>CAMERA</td>
+            <td>CAMERA</td>
+        </tr>
+        <tr>
+            <td>CONTACTS</td>
+            <td>READ_CONTACTS</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>WRITE_CONTACTS</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>GET_ACCOUNTS</td>
+        </tr>
+        <tr>
+            <td>LOCATION</td>
+            <td>ACCESS_FINE_LOCATION</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>ACCESS_COARSE_LOCATION</td>
+        </tr>
+        <tr>
+            <td>MICROPHONE</td>
+            <td>RECORD_AUDIO</td>
+        </tr>
+        <tr>
+            <td>PHONE</td>
+            <td>READ_PHONE_STATE</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>CALL_PHONE</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>READ_CALL_LOG</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>WRITE_CALL_LOG</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>ADD_VOICEMAIL</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>USE_SIP</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>PROCESS_OUTGOING_CALLS</td>
+        </tr>
+        <tr>
+            <td>SENSORS</td>
+            <td>BODY_SENSORS</td>
+        </tr>
+        <tr>
+            <td>SMS</td>
+            <td>SEND_SMS</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>RECEIVE_SMS</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>READ_SMS</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>RECEIVE_WAP_PUSH</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>RECEIVE_MMS</td>
+        </tr>
+        <tr>
+            <td>STORAGE</td>
+            <td>READ_EXTERNAL_STORAGE</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>WRITE_EXTERNAL_STORAGE</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Verificar si tienes permiso
 
