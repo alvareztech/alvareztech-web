@@ -10,7 +10,12 @@ extension Node where Context: HTML.BodyContext {
                 .class("content has-text-centered"),
                 .p(
                     .text("By "),
-                    .strong(.text("Daniel Alvarez")),
+                    .strong(
+                        .a(
+                            .text("Daniel Alvarez"),
+                            .href("/about")
+                        )
+                    ),
                     .text(" © 2020")
                 ),
                 .p(

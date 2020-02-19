@@ -39,7 +39,12 @@ extension Node where Context: HTML.BodyContext {
                                     .href(context.sections[section].path),
                                     .text(context.sections[section].title)
                                 )
-                            }
+                            },
+                            .a(
+                                .class("navbar-item"),
+                                .href("/community"),
+                                .text("Community")
+                            )
                         ),
                         .div(
                             .class("navbar-end"),
