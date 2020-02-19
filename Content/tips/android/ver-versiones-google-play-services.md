@@ -3,7 +3,7 @@ title: Conocer las versiones de Google Play Services que se pueden usar
 description: Conocer las versiones de Google Play Services que se pueden usar
 tags: android, android studio
 date: 2017-05-18 08:00
-lang: es
+language: es
 ---
 
 Si quieres usar un servicio de _Google Play Services_ en Android es necesario que pongas la dependencia adecuada con la versión adecuada. Sin embargo en _Android Studio_ no se muestran que versiones exactamente podemos usar si bien no usaremos la última.

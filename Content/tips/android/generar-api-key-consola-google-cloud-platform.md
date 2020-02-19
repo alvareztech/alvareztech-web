@@ -3,7 +3,7 @@ title: Generar API key desde la consola de Google Cloud Platform
 description: Conocer las versiones de Google Play Services que se pueden usar
 tags: google cloud, android
 date: 2017-05-08 08:00
-lang: es
+language: es
 ---
 
 **Aprenderás**

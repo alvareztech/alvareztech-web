@@ -1,7 +1,8 @@
 ---
 title: Verificar estado de conexión a Internet en tu aplicación Android
-lang: es
+description: Si tu aplicación consume información por Internet, no se te olvide que pueden pasar varias cosas, entre una de ellas es, que el dispositivo no tenga conexión a Internet en ese momento.
 tags: android, java
+language: es
 ---
 
 Si tu aplicación consume información por Internet, no se te olvide que pueden pasar varias cosas, entre una de ellas es, que el dispositivo no tenga conexión a Internet en ese momento.
@@ -9,6 +10,7 @@ Si tu aplicación consume información por Internet, no se te olvide que pueden 
 Aunque muchos lo ignoran es importante mostrar al usuario cuando ocurre esto y no simplemente un error genérico. La buena noticia es que es muy fácil.
 
 ## El código
+
 Pedimos permisos para acceder al estado de la conexión. Solicitado (colócalo) en el *AndroidManifest.xml*.
 
 ```xml

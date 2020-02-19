@@ -1,20 +1,18 @@
 ---
 title: Descargar imágenes de Internet con Glide
-lang: es
+description: Tutorial para utilizar la librería Glide para descargar imágenes desde una URL de Internet en nuestras aplicaciones Android.
 tags: android, glide
 video.youTube: A-KphPemhhg
+language: es
 ---
 
 Tutorial para utilizar la librería *Glide* para descargar imágenes desde una URL de Internet en nuestras aplicaciones Android.
-
-### Aprenderás
-* Descargar un imagen desde una URL
 
 ## Glide
 
 Glide es un framework rápido, eficiente y de código abierto para cargar imágenes o recursos multimedia.
 
-La dependencia de Glide es:
+La dependencia de _Glide_ es:
 
 ```groovy
 compile 'com.github.bumptech.glide:glide:3.7.0'

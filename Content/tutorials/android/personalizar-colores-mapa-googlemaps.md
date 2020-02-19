@@ -3,7 +3,7 @@ title: Personalizar colores, caminos, etiquetas y otros en tu mapa GoogleMaps
 description: En este tutorial verás como gestionar los permisos para las versiones Android 6.0 o superior.
 tags: android, google maps
 date: 2017-04-23 08:00
-lang: es
+language: es
 ---
 
 Ya sea para crear una aplicación diferente, adaptarse al estilo de la aplicación, crear un juego con mapas, en este *lab* aprenderás a personalizar tu mapa de **GoogleMaps** en tu aplicación Android.

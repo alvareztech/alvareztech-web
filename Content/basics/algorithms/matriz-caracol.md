@@ -3,7 +3,7 @@ title: Generar Matriz Caracol
 description: Generar una matriz caracol es un problema clásico en programación, especialmente cuando estamos iniciando a utilizar Arrays y una matriz es simplemente un array bidimensional.
 tags: algorithm, java
 date: 2017-06-11 08:00
-lang: es
+language: es
 ---
 
 Generar una matriz caracol es un problema clásico en programación, especialmente cuando estamos iniciando a utilizar Arrays y una matriz es simplemente un array bidimensional. Mostraremos como solucionarlo y un ejemplo en el lenguaje de programación _Java_.

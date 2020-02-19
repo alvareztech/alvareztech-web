@@ -3,7 +3,6 @@ title: ALVAREZ.tech codelabs, tutorials, website with Angular.
 description: A sample of implementing the MVP (Model View Presenter) architecture pattern in an Android application.
 tags: angular, firebase
 date: 2017-06-08 08:00
-lang: en
 ---
 
 ## Technologies

@@ -3,7 +3,7 @@ title: Crear enlaces de descarga directa para archivos en Google Drive
 description: La API de OpenWeatherMap te permite entre otras cosas, obtener información del clima y pronosticos del tiempo de cualquier región del mundo.
 tags: google drive
 date: 2017-06-11 08:00
-lang: es
+language: es
 ---
 
 Un pequeño *tip* para crear acceso directo a nuestros archivos alojados en **Google Drive**. Nos permitirá descargar directamente los archivos y sin pasar por sus páginas de descarga.

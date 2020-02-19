@@ -1,8 +1,9 @@
 ---
 title: Firebase: Database Realtime para Android
-lang: es
+description: Implementación de una aplicación Android para modificar y obtener actualizaciones en tiempo real de datos con Firebase.
 tags: android, firebase
 video.youTube: peQ9ATXwPwg
+language: es
 ---
 
 Tutorial para la construcción de una aplicación Android para modificar y obtener actualizaciones en tiempo real de datos con Firebase.
@@ -18,6 +19,7 @@ compile 'com.google.firebase:firebase-database:9.0.1'
 > A la fecha el número de la versión puede ser mayor.
 
 ## Referencias
+
 Referencias para acceso a la base de datos (2.39)
 
 ```java
@@ -58,10 +60,10 @@ mensajeRef.addValueEventListener(new ValueEventListener() {
 
 > Código actualizado Nov 30, 2018
 
-* [Repositorio GitHub](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample)
-* [Descargar ZIP](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample/archive/master.zip)
-* [Repositorio GitHub](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample/tree/youtube) (versión anterior/video)
-* [Descargar ZIP](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample/archive/youtube.zip) (versión anterior/video)
+* [Repositorio](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample)
+* [Descargar](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample/archive/master.zip)
+* [Repositorio](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample/tree/youtube) (versión anterior/video)
+* [Descargar](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample/archive/youtube.zip) (versión anterior/video)
 
 ## Recursos
 

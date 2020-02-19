@@ -3,7 +3,7 @@ title: Descargar y usar sólo el ADB (Android Debug Bridge)
 description: El ADB es una herramienta que nos permite comunicarnos con un dispositivo Android o emulador Android vía cable USB o incluso vía WiFi.
 tags: android, adb
 date: 2017-06-11 08:00
-lang: es
+language: es
 ---
 
 Ahora es posible descargarse sólo el ADB (Android Debug Bridge) de Android, tenemos una versión lite de tan solo 3.5 MB. Si no eres desarrollador de seguro te será interesante probarlo. 

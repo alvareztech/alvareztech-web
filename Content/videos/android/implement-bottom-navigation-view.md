@@ -1,6 +1,6 @@
 ---
 title: Implement Bottom Navigation View for Android
-lang: en
+description: Implementation of a Bottom Navigation View in an Android application.
 tags: android
 video.youTube: aTPwcWQIckw
 ---

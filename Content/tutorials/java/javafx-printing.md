@@ -3,7 +3,7 @@ title: Imprimir desde una aplicación JavaFX
 description: Desde Java 8 es posible de una forma muy sencilla realizar impresiones de lo que vemos en una aplicación JavaFX.
 tags: java, javafx
 date: 2017-05-28 08:00
-lang: es
+language: es
 ---
 
 Desde _Java 8_ es posible de una forma muy sencilla realizar impresiones de lo que vemos en una aplicación _JavaFX_.

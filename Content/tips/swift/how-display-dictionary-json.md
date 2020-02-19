@@ -1,7 +1,6 @@
 ---
 title: How to display a dictionary in JSON format
-description: JSON format
-lang: en
+description: If you want to show a Swift dictionary in JSON format you can use the following line...
 tags: swift, json
 ---
 

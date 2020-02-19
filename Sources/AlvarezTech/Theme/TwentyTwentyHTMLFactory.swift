@@ -33,7 +33,9 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                         sortedBy: \.date,
                         order: .descending
                     ),
-                    on: context.site
+                    on: context.site,
+                    showLanguage: true,
+                    showCategory: true
                 ),
                 .footer(for: context.site)
             )
@@ -55,7 +57,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                             )
                         )
                 ),
-                .items(for: section.items, on: context.site),
+                .items(for: section.items, on: context.site, showLanguage: true),
                 .footer(for: context.site)
             )
         )
@@ -149,7 +151,9 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                         sortedBy: \.date,
                         order: .descending
                     ),
-                    on: context.site
+                    on: context.site,
+                    showLanguage: true,
+                    showCategory: true
                 ),
                 .footer(for: context.site)
             )

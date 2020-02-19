@@ -1,18 +1,19 @@
 ---
 title: Firebase: Login Google en Android
-lang: es
+description: Implementarás un login con Google en Firebase en tu aplicación Android. 
 tags: android, firebase, google
 video.youTube: rPzHPNOt7Js
+language: es
 ---
 
 Implementarás un login con Google en Firebase en tu aplicación Android. Además obtendrás la información del usuario directamente desde Firebase, nombre, correo y fotografía.
 
-### Aprenderás
+__Aprenderás__
 
 * Implementar un Login Google en Firebase
 * Obtener información del usuario directamente desde Firebase
 
-### Requisitos
+__Requisitos__
 
 * Haber implementado Login con Google en Android
 
@@ -144,5 +145,5 @@ public void revoke(View view) {
 
 Código completo en:
 
-*  [Repositorio en GitHub](https://github.com/alvareztech/FirebaseGoogleSignInAndroid) 
-*  [Descargar código](https://github.com/alvareztech/FirebaseGoogleSignInAndroid/archive/master.zip) 
+*  [Repositorio](https://github.com/alvareztech/FirebaseGoogleSignInAndroid) 
+*  [Descargar](https://github.com/alvareztech/FirebaseGoogleSignInAndroid/archive/master.zip) 

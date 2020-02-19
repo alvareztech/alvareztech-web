@@ -3,7 +3,7 @@ title: Obtener última localización en Android
 description: En este tutorial verás como gestionar los permisos para las versiones Android 6.0 o superior.
 tags: android, java
 date: 2017-06-14 08:00
-lang: es
+language: es
 ---
 
 > This post requires update. Links.

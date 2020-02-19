@@ -3,7 +3,7 @@ title: Como usar la OpenWeatherMap API
 description: La API de OpenWeatherMap te permite entre otras cosas, obtener información del clima y pronosticos del tiempo de cualquier región del mundo.
 tags: api
 date: 2017-06-03 08:00
-lang: es
+language: es
 ---
 
 La API de OpenWeatherMap te permite entre otras cosas, obtener información del clima y pronosticos del tiempo de cualquier región del mundo.

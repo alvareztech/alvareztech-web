@@ -3,7 +3,7 @@ import Plot
 
 extension Node where Context: HTML.BodyContext {
     
-    static func items(for items: [Item<AlvarezTech>], on site: AlvarezTech) -> Node {
+    static func items(for items: [Item<AlvarezTech>], on site: AlvarezTech, showLanguage: Bool = false, showCategory: Bool = false) -> Node {
         .section(
             .class("section"),
             .div(
@@ -22,7 +22,7 @@ extension Node where Context: HTML.BodyContext {
                                     )
                                 ),
                                 .p(.text(item.description)),
-                                .smallTags(item: item, on: site)
+                                .smallTags(item: item, on: site, showLanguage: showLanguage, showCategory: showCategory)
                             )
                         )
                     }

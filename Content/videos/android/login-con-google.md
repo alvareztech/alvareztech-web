@@ -1,21 +1,23 @@
 ---
 title: Login Google en Android
-lang: es
+description: Autenticación con Google en una aplicación Android, además de la obtención de información del usuario como nombres, correo electrónico, id y fotografía de perfil.
 tags: android, google
 date: 2019-10-23 12:00
 video.youTube: O3aemJ9eAAA
+language: es
 ---
 
 Tutorial para realizar Log In, autenticación con Google en una aplicación Android, además de la obtención de información del usuario como nombres, correo electrónico, id y fotografía de perfil.
 
-### Aprenderás
+__Aprenderás__
 
 * Obtener información del usuario
 * Personalizar el botón de autenticación de Google
 
-### Requisitos
+__Requisitos__
+
 * Cuenta Google
-* Obtener una imagen desde Internet con Glide (para la foto del perfil)
+* Obtener una imagen desde Internet con _Glide_ (para la foto del perfil)
 
 ## 1. Configuración
 
@@ -94,5 +96,6 @@ signInButton.setColorScheme(SignInButton.COLOR_DARK);
 ```
 
 ## Código
-* [Repositorio en GitHub](https://github.com/alvareztech/GoogleSignInAndroid)
-* [Descargar Código en ZIP](https://github.com/alvareztech/GoogleSignInAndroid/archive/master.zip)
+
+* [Repositorio](https://github.com/alvareztech/GoogleSignInAndroid)
+* [Descargar](https://github.com/alvareztech/GoogleSignInAndroid/archive/master.zip)

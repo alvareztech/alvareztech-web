@@ -1,20 +1,23 @@
 ---
 title: Login Facebook en Android
-lang: es
+description: Inicio de sesión con Facebook en una aplicación Android. Además de obtener la información del usuario y mostrarla.
 tags: android, facebook
 video.youTube: 1HgM_vc-rSc
+language: es
 ---
 
 Implementarás un inicio de sesión (Log In) con Facebook en una aplicación Android. Además de obtener la información del usuario y mostrarla.
 
 > Actualizado, además de seguir el proceso del video, tiene el código completo de la versión para obtener la información del usuario y el correo usando Graph API de Facebook.
 
-### Aprenderás
+__Aprenderás__
+
 * Autenticarte con Facebook en tu aplicación Android
 * Obtener la información del perfil del usuario, nombre, URL de la foto, entre otros.
 * Solicitar y mostrar información adicional que requiere permiso como el correo electrónico.
 
-### Requisitos
+__Requisitos__
+
 * Configurar el SDK de Facebook en tu aplicación Android.
 * Una cuenta Facebook
 
@@ -228,18 +231,22 @@ Si no aparece el correo, seguramente es por que no solicitaste permiso o el usua
 > El código completo de esta versión que obtiene información del perfil del usuario y el correo lo encuentras al final.
 
 ## 5. Código
+
 Código completo del proyecto en:
 
 ### Versión simple
+
 Mostrada y explicada en el video.
 
-* [Repositorio en GitHub](https://github.com/alvareztech/android-facebook-login)
-* [Descargar en ZIP](https://github.com/alvareztech/android-facebook-login/archive/master.zip)
+* [Repositorio](https://github.com/alvareztech/android-facebook-login)
+* [Descargar](https://github.com/alvareztech/android-facebook-login/archive/master.zip)
 
 ### Versión con obtención de información del perfil
-* [Repositorio en GitHub](https://github.com/alvareztech/android-facebook-login/tree/profile)
-* [Descargar en ZIP](https://github.com/alvareztech/android-facebook-login/archive/profile.zip)
+
+* [Repositorio](https://github.com/alvareztech/android-facebook-login/tree/profile)
+* [Descargar](https://github.com/alvareztech/android-facebook-login/archive/profile.zip)
 
 ### Versión con obtención de información del perfil y correo
-* [Repositorio en GitHub](https://github.com/alvareztech/android-facebook-login/tree/profile-email)
-* [Descargar en ZIP](https://github.com/alvareztech/android-facebook-login/archive/profile-email.zip)
+
+* [Repositorio](https://github.com/alvareztech/android-facebook-login/tree/profile-email)
+* [Descargar](https://github.com/alvareztech/android-facebook-login/archive/profile-email.zip)

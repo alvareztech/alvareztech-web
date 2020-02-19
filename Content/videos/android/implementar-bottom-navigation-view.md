@@ -1,18 +1,23 @@
 ---
 title: Implementar Bottom Navigation View en Android para la navegación
-lang: es
+description: Implementación de un BottomNavigationView en una aplicación Android.
 tags: android
 video.youTube: aTPwcWQIckw
+language: es
 ---
+
 Implementación de un `BottomNavigationView` en una aplicación Android. Componente disponible desde la librería de compatibilidad 25.
 
-### Aprenderás
+__Aprenderás__
+
 * Usar el componente `BottomNavigationView`
 
-### Requisitos
+__Requisitos__
+
 * Librería de compatibilidad 25 o superior
 
 ## Dependencia
+
 Adición de la dependencia (0.48)
 
 ```groovy
@@ -20,6 +25,7 @@ compile 'com.android.support:design:25.0.0'
 ```
 
 ## Adicionando el componente
+
 Adicionando el BottomNavigationView (1.08)
 
 ```xml
@@ -30,6 +36,7 @@ Adicionando el BottomNavigationView (1.08)
 ```
 
 ## Menú
+
 Creación del menú (1.38)
 
 `menu_navigation.xml`
@@ -70,8 +77,8 @@ Creación del menú (1.38)
 
 El código completo en:
 
-* [GitHub Repository](https://github.com/alvareztech/BottomNavigationViewSample)
-* [Download ZIP](https://github.com/alvareztech/BottomNavigationViewSample/archive/master.zip)
+* [Repository](https://github.com/alvareztech/BottomNavigationViewSample)
+* [Download](https://github.com/alvareztech/BottomNavigationViewSample/archive/master.zip)
 
 Luego de que descargues o clones el proyecto puedes importarlo con la opción "Import Project" desde *Android Studio*.
 
@@ -102,15 +109,15 @@ private void removeShiftMode(BottomNavigationView bottomNavigationView) {
 
 Puedes descargar el mismo ejemplo con esta modificación:
 
-* [GitHub repository](https://github.com/alvareztech/BottomNavigationViewSample/tree/remove-shift)
-* [Download ZIP](https://github.com/alvareztech/BottomNavigationViewSample/archive/remove-shift.zip)
+* [Repository](https://github.com/alvareztech/BottomNavigationViewSample/tree/remove-shift)
+* [Download](https://github.com/alvareztech/BottomNavigationViewSample/archive/remove-shift.zip)
 
 ## Con Fragments
 
 Si quieres el ejemplo con fragments te lo dejamos aquí:
 
-* [GitHub repository](https://github.com/alvareztech/BottomNavigationViewSample/tree/fragments)
-* [Download ZIP](https://github.com/alvareztech/BottomNavigationViewSample/archive/fragments.zip)
+* [Repository](https://github.com/alvareztech/BottomNavigationViewSample/tree/fragments)
+* [Download](https://github.com/alvareztech/BottomNavigationViewSample/archive/fragments.zip)
 
 ## Recursos adicionales
 

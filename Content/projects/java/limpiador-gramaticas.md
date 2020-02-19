@@ -4,6 +4,7 @@ description: Aplicación de escritorio escrita en Java que limpia una gramática
 lang: es
 tags: java
 date: 2009-12-01 08:00
+language: es
 ---
 
 Dada una gramática libre de contexto, esta aplicación de escritorio limpia dicha gramática eliminando las producciones renombradoras, las producciones inútiles, las producciones inaccesibles, realiza estas opciones por separado o las hace todas en una.
