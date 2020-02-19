@@ -22,7 +22,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                                 ),
                                 .p(
                                     .class("subtitle"),
-                                    .text("iOS, Android development trainer. Here I share everything I do. Tutorials, code and more.")
+                                    .text(index.description)
                                 )
                             )
                         )
