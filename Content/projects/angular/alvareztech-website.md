@@ -7,7 +7,7 @@ date: 2017-06-08 08:00
 
 ## Technologies
 
-__Firebase__
+### Firebase
 
 * Firebase Realtime Database
 * Firebase Authentication
@@ -15,16 +15,21 @@ __Firebase__
 * Firebase Hosting
 * Something more...
   
-__Angular__
+  ### Angular
   
-* Angular CLI
-  * [cli.angular.io](https://cli.angular.io/)
-  * [github.com/angular/angular-cli](https://github.com/angular/angular-cli)
-* Angular Material
-  * [material.angular.io](https://material.angular.io/)
-  * [github.com/angular/components](https://github.com/angular/components)
-* AngularFire2
-  * [github.com/angular/angularfire](https://github.com/angular/angularfire)
+__Angular CLI__
+
+* [cli.angular.io](https://cli.angular.io/)
+* [github.com/angular/angular-cli](https://github.com/angular/angular-cli)
+  
+__Angular Material__
+
+* [material.angular.io](https://material.angular.io/)
+* [github.com/angular/components](https://github.com/angular/components)
+  
+__AngularFire2__
+
+* [github.com/angular/angularfire](https://github.com/angular/angularfire)
 
 ## The code
 
