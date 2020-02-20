@@ -25,7 +25,10 @@ extension Node where Context: HTML.BodyContext {
                     )
                 )
             ),
-            .script(.src("/essential.js"))
+            .script(.src("/essential.js")),
+            .script(.src("https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js")),
+            .script(.src("https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js")),
+            .script(.src("/firebase.js"))
         )
     }
 }
