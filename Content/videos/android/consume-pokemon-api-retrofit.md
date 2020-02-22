@@ -15,15 +15,15 @@ __What you'll learn__
 
 __What you'll need__
 
-* Know how to obtain images with Glide
+* [Know how to obtain images with _Glide_](/videos/android/descargar-imagenes-glide/)
 
 ## Introduction
 
-### API (0:22)
+__API (0:22)__
 
 * [pokeapi.co](https://pokeapi.co/)
 
-### Google Chrome Extension (1:10)
+__Google Chrome Extension (1:10)__
 
 * [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
 
@@ -31,21 +31,38 @@ __What you'll need__
 
 URL to obtain the images of the pokemon by their number.
 
-```http
-https://pokeapi.co/media/sprites/pokemon/25.png
 ```
+̶h̶t̶t̶p̶s̶:̶/̶/̶p̶o̶k̶e̶a̶p̶i̶.̶c̶o̶/̶m̶e̶d̶i̶a̶/̶s̶p̶r̶i̶t̶e̶s̶/̶p̶o̶k̶e̶m̶o̶n̶/̶2̶5̶.̶p̶n̶g̶
+```
+
+__Update:__ The previous URL stopped working but you can get the image directly from the repository like this:
+
+```
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png
+```
+
+Pikachu is the pokemon number 25.
+
+![Pikachu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png)
 
 ## Retrofit
 
 2:02: Dependency to use *Retrofit* in the module `build.gradle`
 
 ```groovy
-compile 'com.squareup.retrofit2:retrofit:2.1.0'
+c̶o̶m̶p̶i̶l̶e̶ ̶'̶c̶o̶m̶.̶s̶q̶u̶a̶r̶e̶u̶p̶.̶r̶e̶t̶r̶o̶f̶i̶t̶2̶:̶r̶e̶t̶r̶o̶f̶i̶t̶:̶2̶.̶1̶.̶0̶'̶
 ```
 
-More information and Retrofit documentation.
+__Update:__ `compile` is _deprecated_ and there are new versions.
+
+```groovy
+implementation 'com.squareup.retrofit2:retrofit:2.7.1'
+```
+
+Release numbers, more information and _Retrofit_ documentation:
 
 * [Website](http://square.github.io/retrofit/)
+* [Releases](https://github.com/square/retrofit/releases)
 
 ## The Code
 The complete code:
