@@ -16,3 +16,10 @@ jobs:
       run: swift build -v
 #    - name: Run tests
 #      run: swift test -v
+  deploy:
+    runs-on: macos
+    steps:
+      - name: Install Firebase CLI
+        run: npm i -g firebase-tools
+      - name: Show Firebase CLI version
+        run: firebase --version
