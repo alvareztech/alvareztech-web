@@ -1,11 +1,14 @@
 name: Build project
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
 
-    runs-on: macOS-latest
+    runs-on: macos
 
     steps:
     - uses: actions/checkout@v2
