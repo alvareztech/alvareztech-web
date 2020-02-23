@@ -72,4 +72,4 @@ Código completo de la aplicación:
 * [Repository](https://github.com/alvareztech/Pokedex)
 * [Download](https://github.com/alvareztech/Pokedex/archive/master.zip)
 
-> El __branch master__ fue actualizado con la migración a AndroidX y la actualización de los gradle tools. Si tu quieres ver exactamente la misma versión del video, esta esta en el __branch video__.
+> El __branch master__ fue actualizado con la migración a AndroidX y la actualización de los gradle tools. Si tu quieres ver exactamente la misma versión del video, esta en el __branch video__.

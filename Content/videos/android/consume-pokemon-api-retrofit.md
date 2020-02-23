@@ -65,6 +65,7 @@ Release numbers, more information and _Retrofit_ documentation:
 * [Releases](https://github.com/square/retrofit/releases)
 
 ## The Code
+
 The complete code:
 
 * [Repository](https://github.com/alvareztech/Pokedex)
