@@ -31,13 +31,13 @@ __Google Chrome Extension (1:10)__
 
 URL to obtain the images of the pokemon by their number.
 
-```
+```html
 ̶h̶t̶t̶p̶s̶:̶/̶/̶p̶o̶k̶e̶a̶p̶i̶.̶c̶o̶/̶m̶e̶d̶i̶a̶/̶s̶p̶r̶i̶t̶e̶s̶/̶p̶o̶k̶e̶m̶o̶n̶/̶2̶5̶.̶p̶n̶g̶
 ```
 
 __Update:__ The previous URL stopped working but you can get the image directly from the repository like this:
 
-```
+```html
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png
 ```
 
@@ -69,3 +69,5 @@ The complete code:
 
 * [Repository](https://github.com/alvareztech/Pokedex)
 * [Download](https://github.com/alvareztech/Pokedex/archive/master.zip)
+
+> The __master branch__ was updated with the migration of AndroidX and the update of gradle tools. If you want to see exactly the same version of the video, it is in the __video branch__.
