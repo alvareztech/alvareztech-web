@@ -65,6 +65,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makeItemHTML(for item: Item<AlvarezTech>, context: PublishingContext<AlvarezTech>) throws -> HTML {
         HTML(
+            .lang(Language(rawValue: (item.metadata.language ?? Language.english.rawValue))!),
             .head(for: item, on: context.site),
             .body(
                 .header(for: context, selectedSection: item.sectionID),
