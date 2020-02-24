@@ -5,6 +5,19 @@ tags: angular, firebase
 date: 2017-06-08 08:00
 ---
 
+![Angular Website](/images/projects/angular/angular-website-1.jpg)
+
+__More screenshots__
+
+[Screenshot 1](/images/projects/angular/angular-website-1.png), 
+[Screenshot 2](/images/projects/angular/angular-website-2.png), 
+[Screenshot 3](/images/projects/angular/angular-website-3.png), 
+[Screenshot 4](/images/projects/angular/angular-website-4.png)
+
+__Website__
+
+[maksha-41f4f.web.app](https://maksha-41f4f.web.app/)
+
 ## Technologies
 
 ### Firebase
@@ -15,7 +28,7 @@ date: 2017-06-08 08:00
 * Firebase Hosting
 * Something more...
   
-  ### Angular
+### Angular
   
 __Angular CLI__
 

@@ -6,8 +6,6 @@ date: 2017-06-14 08:00
 language: es
 ---
 
-> This post requires update. Links.
-
 Crearás tu primera aplicación en _Android Studio_ que obtenga la última localización conocida del usuario y lo muestre por pantalla.
 
 ![App](https://firebasestorage.googleapis.com/v0/b/maksha-41f4f.appspot.com/o/labs%2Fobtener-ultima-localizacion-android%2Fapp.png?alt=media&token=3b8fd272-403a-4fa4-b8f4-09ee54ec8994)
@@ -21,11 +19,8 @@ Crearás tu primera aplicación en _Android Studio_ que obtenga la última local
 
 **Requisitos**
 
-* Google Play Services SDK instalado. Puedes ver este lab para este requisito:
-  * [Instalar Google Play Services](https://alvarez.tech/labs/instalar-google-play-services-sdk-android)
-
-* Conocer una versión de Google Play Services a usar. Puedes ver este lab para este requisito:
-  * [Conocer las versiones de Google Play Services que se pueden usar](https://alvarez.tech/labs/ver-versiones-google-play-services)
+* [Google Play Services SDK instalado](/basics/android/instalar-google-play-services-sdk/)
+* [Conocer una versión de Google Play Services a usar](/tips/android/ver-versiones-google-play-services/)
 
 ## Crear el proyecto
 
@@ -288,7 +283,5 @@ Felicidades terminaste tu primera aplicación que obtiene la última ubicación 
 
 Los siguiente pasos a dar son:
 
-* Gestionar los permisos para Android 6.0 o superior
-  * [Gestionar permisos para Android 6.0, API 23](https://alvarez.tech/labs/gestionar-permisos-android6-api23)
-
+* [Gestionar los permisos para Android 6.0 o superior](/tutorials/android/gestionar-permisos-android6-api23/)
 * Obtener actualización de la ubicación cada cierto tiempo
