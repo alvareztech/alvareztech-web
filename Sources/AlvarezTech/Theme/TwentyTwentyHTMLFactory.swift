@@ -32,7 +32,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                     for: context.allItems(
                         sortedBy: \.date,
                         order: .descending
-                    ),
+                    ).filter { $0.metadata.draft != true },
                     on: context.site,
                     showLanguage: true,
                     showCategory: true
@@ -57,7 +57,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                             )
                         )
                 ),
-                .items(for: section.items, on: context.site, showLanguage: true),
+                .items(for: section.items.filter { $0.metadata.draft != true }, on: context.site, showLanguage: true),
                 .footer(for: context.site)
             )
         )
@@ -151,7 +151,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                         taggedWith: page.tag,
                         sortedBy: \.date,
                         order: .descending
-                    ),
+                    ).filter { $0.metadata.draft != true },
                     on: context.site,
                     showLanguage: true,
                     showCategory: true

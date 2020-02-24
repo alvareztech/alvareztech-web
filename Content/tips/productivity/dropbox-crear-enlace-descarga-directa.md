@@ -1,9 +1,9 @@
 ---
 title: Crear enlaces de descarga directa para archivos en Dropbox
 description: La API de OpenWeatherMap te permite entre otras cosas, obtener información del clima y pronosticos del tiempo de cualquier región del mundo.
-tags: dropbox
 date: 2017-06-02 08:00
 language: es
+draft: true
 ---
 
 > Requires update (Images, description)
