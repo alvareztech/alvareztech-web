@@ -29,6 +29,10 @@ jobs:
           cd Publish
           make
           cd ..
+      - name: pwd
+        run: pwd
+      - name: publish version
+        run: publish version
       - name: Generate Site
         run: publish generate
 #       - name: Generate Not Found Page
