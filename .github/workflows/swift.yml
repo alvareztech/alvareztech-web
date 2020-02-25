@@ -28,6 +28,7 @@ jobs:
           git clone https://github.com/JohnSundell/Publish.git
           cd Publish
           make
+          cd ..
       - name: Generate Site
         run: publish generate
 #       - name: Generate Not Found Page
