@@ -23,3 +23,7 @@ jobs:
         run: npm i -g firebase-tools
       - name: Show Firebase CLI version
         run: firebase --version
+#       - name: Generate Site
+#         run: publish generate
+#       - name: Generate Not Found Page
+#         run: mv Output/404/index.html Output/404.html
