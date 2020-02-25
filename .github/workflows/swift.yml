@@ -23,6 +23,10 @@ jobs:
         run: npm i -g firebase-tools
       - name: Show Firebase CLI version
         run: firebase --version
+      - name: pwd 1
+        run: |
+          pwd
+          ls 
       - name: Install Publish
         run: |
           git clone https://github.com/JohnSundell/Publish.git
@@ -30,7 +34,9 @@ jobs:
           make
           cd ..
       - name: pwd
-        run: pwd
+        run: |
+          pwd
+          ls
       - name: publish version
         run: publish version
       - name: Generate Site
