@@ -35,4 +35,4 @@ jobs:
     - name: Generate Not Found Page
       run: mv Output/404/index.html Output/404.html
     - name: Firebase deploy
-      run: firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}
+      run: firebase deploy --token ${{ secrets.FIREBASE_TOKEN }} --project alvarez-technologies
