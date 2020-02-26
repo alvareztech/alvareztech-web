@@ -16,30 +16,27 @@ jobs:
       run: swift build -v
 #    - name: Run tests
 #      run: swift test -v
-  deploy:
-    runs-on: macos
-    steps:
-      - name: Install Firebase CLI
-        run: npm i -g firebase-tools
-      - name: Show Firebase CLI version
-        run: firebase --version
-      - name: pwd 1
-        run: |
-          pwd
-          ls 
-      - name: Install Publish
-        run: |
-          git clone https://github.com/JohnSundell/Publish.git
-          cd Publish
-          make
-          cd ..
-      - name: pwd
-        run: |
-          pwd
-          ls
-      - name: publish version
-        run: publish version
-      - name: Generate Site
-        run: publish generate
+    - name: Install Firebase CLI
+      run: npm i -g firebase-tools
+    - name: Show Firebase CLI version
+      run: firebase --version
+    - name: pwd 1
+      run: |
+        pwd
+        ls 
+    - name: Install Publish
+      run: |
+        git clone https://github.com/JohnSundell/Publish.git
+        cd Publish
+        make
+        cd ..
+    - name: pwd
+      run: |
+        pwd
+        ls
+    - name: publish version
+      run: publish version
+    - name: Generate Site
+      run: publish generate
 #       - name: Generate Not Found Page
 #         run: mv Output/404/index.html Output/404.html
