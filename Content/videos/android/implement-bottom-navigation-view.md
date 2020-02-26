@@ -1,20 +1,22 @@
 ---
 title: Implement Bottom Navigation View for Android
 description: Implementation of a Bottom Navigation View in an Android application.
-tags: android
+tags: android, java
 video.youTube: aTPwcWQIckw
 ---
+
 Implementation of a Bottom Navigation View in an Android application. Component available from the compatibility library 25.
 
-### What you'll learn
+__What you'll learn__
 
 * Use the `BottomNavigationView` component
 
-### What you'll need
+__What you'll need__
 
 * Compatibility library 25 or higher
 
 ## Dependency
+
 Dependency addition (0.48)
 
 ```groovy
@@ -71,10 +73,11 @@ Menu creation (1.38)
 ```
 
 ## The Code
+
 The complete code:
 
-* [GitHub Repository](https://github.com/alvareztech/BottomNavigationViewSample)
-* [Download ZIP](https://github.com/alvareztech/BottomNavigationViewSample/archive/master.zip)
+* [Repository](https://github.com/alvareztech/BottomNavigationViewSample)
+* [Download](https://github.com/alvareztech/BottomNavigationViewSample/archive/master.zip)
 
 After you download or clone the project you can import it with the "Import Project" option from Android Studio.
 
@@ -105,15 +108,15 @@ private void removeShiftMode(BottomNavigationView bottomNavigationView) {
 
 You can download the same example with this change.
 
-* [GitHub repository](https://github.com/alvareztech/BottomNavigationViewSample/tree/remove-shift)
-* [Download ZIP](https://github.com/alvareztech/BottomNavigationViewSample/archive/remove-shift.zip)
+* [Repository](https://github.com/alvareztech/BottomNavigationViewSample/tree/remove-shift)
+* [Download](https://github.com/alvareztech/BottomNavigationViewSample/archive/remove-shift.zip)
 
 ## With Fragments
 
 If you want an example with fragments I leave it here:
 
-* [GitHub repository](https://github.com/alvareztech/BottomNavigationViewSample/tree/fragments)
-* [Download ZIP](https://github.com/alvareztech/BottomNavigationViewSample/archive/fragments.zip)
+* [Repository](https://github.com/alvareztech/BottomNavigationViewSample/tree/fragments)
+* [Download](https://github.com/alvareztech/BottomNavigationViewSample/archive/fragments.zip)
 
 ## Resources
 
