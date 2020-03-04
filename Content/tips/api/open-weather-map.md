@@ -6,7 +6,7 @@ date: 2017-06-03 08:00
 language: es
 ---
 
-La API de OpenWeatherMap te permite entre otras cosas, obtener información del clima y pronosticos del tiempo de cualquier región del mundo.
+La API de _OpenWeatherMap_ te permite entre otras cosas, obtener información del clima y pronosticos del tiempo de cualquier región del mundo.
 
 * Página Principal: [openweathermap.org](https://openweathermap.org)
 * Página de la API: [openweathermap.org/api](https://openweathermap.org/api)
