@@ -1,6 +1,6 @@
 ---
 title: Angular Bolivia Meetup: Creando aplicaciones modernas, completas. Angular + Firebase
-description:
+description: Angular Bolivia Meetup desarrollado el 29 de julio del 2017 en Cochabamba, Bolivia.
 tags: meetup, angular, firebase
 language: es
 date: 2017-09-29 08:00
