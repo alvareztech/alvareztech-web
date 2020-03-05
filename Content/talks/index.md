@@ -1,4 +1,4 @@
 ---
 title: Talks
-description: Some talks, conferences that I participated.
+description: Some talks, codelabs, conferences that I did.
 ---
