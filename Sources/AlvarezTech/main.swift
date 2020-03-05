@@ -5,12 +5,13 @@ import SplashPublishPlugin
 
 struct AlvarezTech: Website {
     enum SectionID: String, WebsiteSectionID {
-        // case articles
+//        case articles
         case tutorials
         case videos
         case basics
         case tips
         case projects
+        case talks
     }
     
     struct ItemMetadata: WebsiteItemMetadata {
