@@ -33,6 +33,7 @@ jobs:
     - name: Generate Site
       run: publish generate
     - name: Generate Not Found Page
-      run: mv Output/404/index.html Output/404.html
+      run: cp Output/404/index.html Output/404.html
+      ## run: mv Output/404/index.html Output/404.html
     - name: Firebase deploy
       run: firebase deploy --token ${{ secrets.FIREBASE_TOKEN }} --project alvarez-technologies
