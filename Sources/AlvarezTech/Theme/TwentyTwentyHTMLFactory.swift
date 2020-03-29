@@ -72,20 +72,26 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                 .section(
                     .class("section"),
                     .div(
-                        .class("container"),
+                        .class("columns is-centered"),
                         .div(
-                            .class("content is-medium"),
-                            .h1(.text(item.title)),
-                            .smallTags(item: item, on: context.site),
-                            .unwrap(item.video) {
+                            .class("column is-half"),
+                            .div(
+                                .class("container"),
                                 .div(
-                                    .class("video-container"),
-                                    .videoPlayer(for: $0)
-                                )
-                            },
-                            .contentBody(item.body)
-                        ),
-                        .dateTags(item: item, on: context.site)
+                                    .class("content is-medium"),
+                                    .h1(.text(item.title)),
+                                    .smallTags(item: item, on: context.site),
+                                    .unwrap(item.video) {
+                                        .div(
+                                            .class("video-container"),
+                                            .videoPlayer(for: $0)
+                                        )
+                                    },
+                                    .contentBody(item.body)
+                                ),
+                                .dateTags(item: item, on: context.site)
+                            )
+                        )
                     )
                 ),
                 .footer(for: context.site)
