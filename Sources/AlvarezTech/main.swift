@@ -28,4 +28,18 @@ struct AlvarezTech: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
-try AlvarezTech().publish(withTheme: .twentyTwenty, additionalSteps: [], plugins: [.splash(withClassPrefix: "")])
+try AlvarezTech().publish(withTheme: .twentyTwenty, additionalSteps: [], plugins: [.splash(withClassPrefix: ""), .ensureAllItemsAreTagged, .improveImages])
+//try AlvarezTech().publish(using: [
+//    .installPlugin(.splash(withClassPrefix: "")),
+//    .copyResources(),
+//    .addMarkdownFiles(),
+//    .sortItems(by: \.date, order: .descending),
+//    .generateHTML(withTheme: .twentyTwenty, indentation: nil),
+//    .generateRSSFeed(
+//        including: [.videos],
+//        config: .default
+//    ),
+//    .generateSiteMap(indentedBy: nil),
+//    .installPlugin(.ensureAllItemsAreTagged),
+//    .installPlugin(.improveImages)
+//])
