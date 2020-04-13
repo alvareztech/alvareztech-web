@@ -4,23 +4,20 @@ import Plot
 extension Node where Context: HTML.BodyContext {
     
     static func bigTitle(_ title: String, subtitle: String? = nil) -> Node {
-        .section(
-            .class("hero is-primary"),
+        .div(
+            .class("outer site-header-background no-image"),
             .div(
-                .class("hero-body"),
-                .div(
-                    .class("container"),
-                    .h1(
-                        .class("title"),
-                        .text(title)
-                    ),
-                    .unwrap(subtitle) {
-                        .h2(
-                            .class("subtitle"),
-                            .text($0)
-                        )
-                    }
-                )
+                .class("inner site-header-content"),
+                .h1(
+                    .class("site-title"),
+                    .text(title)
+                ),
+                .unwrap(subtitle) {
+                    .h2(
+                        .class("site-description"),
+                        .text($0)
+                    )
+                }
             )
         )
     }

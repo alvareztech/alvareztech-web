@@ -6,33 +6,35 @@ video.youTube: YO6Xx5glLPE
 language: es
 ---
 
-Implementarás el inicio de sesión con Facebook en tu aplicación Android usando *Firebase Authentication*. Además obtendrás la información del usuario.
+Implementarás el inicio de sesión con _Facebook_ en tu aplicación Android usando _Firebase Authentication_ y además obtendrás la información del usuario.
 
-### Aprenderás
-* Implementar el inicio de sesión con Facebook en una aplicación.
+__Requisitos__
 
-### Requisitos
-* Configurar el SDK de Facebook
-* Implementar Login con Facebook
+* [Implementar Login con Facebook](/videos/android/login-con-facebook/)
 
 ## Introducción
-0:14 Alternativas para implementar autenticación en Facebook:
 
-* Firebase SDK 0:37
-* Firebase UI 0:41
-    * Librería de código abierto para facilitar el uso de los servicios de Firebase.
-    * [Repositorio en GitHub](https://github.com/firebase/FirebaseUI-Android)
+Alternativas para implementar autenticación en Facebook: (min 0:14)
+
+__Firebase SDK__ (min 0:37)
+
+__Firebase UI__ (min 0:41)
+
+* Librería de código abierto para facilitar el uso de los servicios de Firebase.
+* [Repositorio en GitHub](https://github.com/firebase/FirebaseUI-Android)
         
 ## Configuración
-1:20
+Min 1:20
 
 * Configurar el SDK de Facebook
 * Implementación de Login con Facebook
 
 ## Implementación
-1:40
+
+Min 1:40
 
 ### Obtener el certificado SHA-1 (2:01)
+
 Para Windows
 
 ```

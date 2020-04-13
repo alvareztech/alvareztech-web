@@ -6,11 +6,11 @@ video.youTube: peQ9ATXwPwg
 language: es
 ---
 
-Tutorial para la construcción de una aplicación Android para modificar y obtener actualizaciones en tiempo real de datos con Firebase.
+Tutorial para la construcción de una aplicación Android para modificar y obtener actualizaciones en tiempo real de datos con _Firebase_.
 
 ## Dependencia
 
-Adición de la dependencia (0.38)
+Adición de la dependencia (min 0.38)
 
 ```groovy
 compile 'com.google.firebase:firebase-database:9.0.1'
@@ -20,7 +20,7 @@ compile 'com.google.firebase:firebase-database:9.0.1'
 
 ## Referencias
 
-Referencias para acceso a la base de datos (2.39)
+Referencias para acceso a la base de datos (min 2.39)
 
 ```java
 DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
@@ -29,7 +29,7 @@ DatabaseReference mensajeRef = ref.child("mensaje");
 
 ## Cambiar valor
 
-Modificar valor del mensaje al presionar el botón (2.54)
+Modificar valor del mensaje al presionar el botón (min 2.54)
 
 ```java
 String mensaje = mensajeEditText.getText().toString();  
@@ -39,7 +39,7 @@ mensajeEditText.setText("");
 
 ## Listener
 
-Adicionar oyente de cambios a mensaje (3.25)
+Adicionar oyente de cambios a mensaje (min 3.25)
 
 ```java
 mensajeRef.addValueEventListener(new ValueEventListener() {  
