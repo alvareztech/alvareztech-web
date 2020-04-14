@@ -11,7 +11,7 @@ Cuando se presentó Android 6.0 (API 23) se introdujo una nueva forma de gestion
 
 En este tutorial verás como gestionar los permisos para las versiones Android 6.0 o superior.
 
-![Dialog](http://res.cloudinary.com/alvareztech/image/upload/v1492702303/labs/gestionar-permisos-android6-api23/permisodialog.png)
+![Dialog](https://res.cloudinary.com/alvareztech/image/upload/v1492702303/labs/gestionar-permisos-android6-api23/permisodialog.png)
 
 __Aprenderás__
 
@@ -202,7 +202,7 @@ El número `777` es un código que usamos porque cuando solicitas que aparezca e
 
 Uniendo estos métodos, se vería así:
 
-![Unión](http://res.cloudinary.com/alvareztech/image/upload/v1492705010/labs/gestionar-permisos-android6-api23/ifs.png)
+![Unión](https://res.cloudinary.com/alvareztech/image/upload/v1492705010/labs/gestionar-permisos-android6-api23/ifs.png)
 
 > Evidentemente el número `777` puede ser cambiado por una constante de Java. Necesitamos un código por que tu aplicación puede necesitar varios permisos en diferentes momentos y debes de poder identificar al cual el usuario dijo si y a cual no.
 
@@ -214,19 +214,19 @@ La buena noticia es que puedes generar ese método automáticamente así:
 
 * Click derecho en donde quieres generar el código
 
-![Generar 1](http://res.cloudinary.com/alvareztech/image/upload/v1492701077/labs/gestionar-permisos-android6-api23/generate.png)
+![Generar 1](https://res.cloudinary.com/alvareztech/image/upload/v1492701077/labs/gestionar-permisos-android6-api23/generate.png)
 
 * Seleccionas `Override Methods`
 
-![Generar 2](http://res.cloudinary.com/alvareztech/image/upload/v1492702933/labs/gestionar-permisos-android6-api23/override.png)
+![Generar 2](https://res.cloudinary.com/alvareztech/image/upload/v1492702933/labs/gestionar-permisos-android6-api23/override.png)
 
 * Empiezas a escribir las primeras letras de `onRequestPermissionsResult`
 
-![Generar 3](http://res.cloudinary.com/alvareztech/image/upload/v1492701341/labs/gestionar-permisos-android6-api23/onrequestpermission.png)
+![Generar 3](https://res.cloudinary.com/alvareztech/image/upload/v1492701341/labs/gestionar-permisos-android6-api23/onrequestpermission.png)
 
 * Presionas `OK` y ya tienes el siguiente método generado:
 
-![Result](http://res.cloudinary.com/alvareztech/image/upload/v1492701544/labs/gestionar-permisos-android6-api23/requestpermissionresult_code.png)
+![Result](https://res.cloudinary.com/alvareztech/image/upload/v1492701544/labs/gestionar-permisos-android6-api23/requestpermissionresult_code.png)
 
 
 ### Método `onRequestPermissionsResult(...)`
@@ -239,13 +239,13 @@ Dentro del método:
 
 El método queda así:
 
-![](http://res.cloudinary.com/alvareztech/image/upload/v1492703396/labs/gestionar-permisos-android6-api23/onrequestall.png)
+![](https://res.cloudinary.com/alvareztech/image/upload/v1492703396/labs/gestionar-permisos-android6-api23/onrequestall.png)
 
 ## Uniendo
 
 Si colocamos todas las preguntas y métodos lado a lado, se ve así:
 
-![](http://res.cloudinary.com/alvareztech/image/upload/v1492705535/labs/gestionar-permisos-android6-api23/all.png)
+![](https://res.cloudinary.com/alvareztech/image/upload/v1492705535/labs/gestionar-permisos-android6-api23/all.png)
 
 En el primer `if` donde tenemos permiso, ahí debería de estar tu código, en este ejemplo para obtener la ubicación del usuario.
 
