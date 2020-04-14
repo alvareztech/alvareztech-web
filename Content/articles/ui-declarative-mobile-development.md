@@ -3,6 +3,7 @@ title: UI Declarative for Mobile Development
 description: SwiftUI for iOS, Jetpack Compose for Android
 tags: ios, android
 date: 2019-10-12 08:00
+highlight: true
 ---
 
 Many tasks of a mobile developer are to create a user interface and this changed a lot. Nowadays, they are not just buttons and simple forms, now the user interface is somewhat more complex, now the user interface includes a lot of information that is shown in different ways, actions that can be touches, gestures, and very sophisticated animations.
