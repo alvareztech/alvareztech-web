@@ -3,14 +3,14 @@ import Plot
 
 extension Node where Context: HTML.BodyContext {
     
-    static func items(for items: [Item<AlvarezTech>], on site: AlvarezTech, showLanguage: Bool = false, showCategory: Bool = false) -> Node {
+    static func items(for items: [Item<AlvarezTech>], on site: AlvarezTech) -> Node {
         .div(
             .class("inner posts"),
             .div(
                 .class("post-feed"),
                 .forEach(items) { item in
                     .article(
-                        .class("post-card post"),
+                        .class("post-card post\(item.metadata.highlight == true ? " post-card-large": "")"),
                         .div(
                             .class("post-card-content"),
                             .a(

@@ -17,6 +17,7 @@ struct AlvarezTech: Website {
     struct ItemMetadata: WebsiteItemMetadata {
         var language: String?
         var draft: Bool? = false
+        var highlight: Bool? = false
     }
     
     var url = URL(string: "https://alvarez.tech")!

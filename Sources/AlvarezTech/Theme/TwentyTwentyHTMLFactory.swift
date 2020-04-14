@@ -21,9 +21,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                                     sortedBy: \.date,
                                     order: .descending
                                 ).filter { $0.metadata.draft != true },
-                                on: context.site,
-                                showLanguage: true,
-                                showCategory: true
+                                on: context.site
                             )
                         )
                     ),
@@ -49,7 +47,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                             .if(!section.body.isEmpty,
                                 .contentBody(section.body)
                             ),
-                            .items(for: section.items.filter { $0.metadata.draft != true }, on: context.site, showLanguage: true)
+                            .items(for: section.items.filter { $0.metadata.draft != true }, on: context.site)
                         )
                     ),
                     .footer(for: context.site)
@@ -265,9 +263,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                                 sortedBy: \.date,
                                 order: .descending
                             ).filter { $0.metadata.draft != true },
-                            on: context.site,
-                            showLanguage: true,
-                            showCategory: true
+                            on: context.site
                         )
                     ),
                     .footer(for: context.site)
