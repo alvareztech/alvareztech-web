@@ -5,7 +5,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makeIndexHTML(for index: Index, context: PublishingContext<AlvarezTech>) throws -> HTML {
         HTML(
-            .head(for: index, on: context.site, stylesheetPaths: ["/styles.css?v=2"]),
+            .head(for: index, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("page-template"),
                 .div(
@@ -35,7 +35,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makeSectionHTML(for section: Section<AlvarezTech>, context: PublishingContext<AlvarezTech>) throws -> HTML {
         HTML(
-            .head(for: section, on: context.site, stylesheetPaths: ["/styles.css?v=2"]),
+            .head(for: section, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("page-template"),
                 .div(
@@ -61,7 +61,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     func makeItemHTML(for item: Item<AlvarezTech>, context: PublishingContext<AlvarezTech>) throws -> HTML {
         HTML(
             .lang(Language(rawValue: (item.metadata.language ?? Language.english.rawValue))!),
-            .head(for: item, on: context.site, stylesheetPaths: ["/styles.css?v=2"]),
+            .head(for: item, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("post-template"),
                 .div(
@@ -167,6 +167,19 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                                         .contentBody(item.body)
                                     )
                                 )
+                            ),
+                            .a(
+                                .class("twitter-dm-button"),
+                                .href("https://twitter.com/messages/compose?recipient_id=233763623&ref_src=twsrc%5Etfw"),
+                                .data(named: "size", value: "large"),
+                                .data(named: "screen-name", value: "@alvarez_tech"),
+                                .data(named: "show-count", value: "false"),
+                                .text("Message @alvarez_tech")
+                            ),
+                            .script(
+                                .src("https://platform.twitter.com/widgets.js"),
+                                .async(),
+                                .attribute(named: "charset", value: "utf-8")
                             )
                         )
                     ),
@@ -178,7 +191,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makePageHTML(for page: Page, context: PublishingContext<AlvarezTech>) throws -> HTML {
         HTML(
-            .head(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=2"]),
+            .head(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("page-template"),
                 .div(
@@ -216,21 +229,31 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makeTagListHTML(for page: TagListPage, context: PublishingContext<AlvarezTech>) throws -> HTML? {
         HTML(
-            .head(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=2"]),
+            .head(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("page-template"),
                 .div(
                     .class("site-wrapper"),
                     .navigationBar(for: context, selectedSection: nil),
                     .bigTitle("Tags"),
-                    .section(
-                        .class("post-full-content"),
-                        .forEach(page.tags.sorted()) { tag in
-                            .a(
-                                .href(context.site.path(for: tag)),
-                                .text(tag.string.uppercased())
+                    .main(
+                        .class("site-main outer"),
+                        .div(
+                            .class("inner"),
+                            .section(
+                                .class("post-full-content"),
+                                .ul(
+                                    .forEach(page.tags.sorted()) { tag in
+                                        .li(
+                                            .a(
+                                                .href(context.site.path(for: tag)),
+                                                .text(tag.string.capitalized)
+                                            )
+                                        )
+                                    }
+                                )
                             )
-                        }
+                        )
                     ),
                     .footer(for: context.site)
                 )
@@ -240,7 +263,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makeTagDetailsHTML(for page: TagDetailsPage, context: PublishingContext<AlvarezTech>) throws -> HTML? {
         HTML(
-            .head(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=2"]),
+            .head(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("page-template"),
                 .div(
