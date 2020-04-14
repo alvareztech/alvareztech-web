@@ -25,6 +25,7 @@ struct AlvarezTech: Website {
     var description = "iOS, Android, Java, Kotlin & Swift tutorials, videos, projects, code and more."
     var language: Language { .english }
     var imagePath: Path? { "images/icon.png" }
+    var stylesVersion = 2
 }
 
 // This will generate your website using the built-in Foundation theme:
