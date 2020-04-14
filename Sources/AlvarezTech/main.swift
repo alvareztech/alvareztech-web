@@ -5,7 +5,7 @@ import SplashPublishPlugin
 
 struct AlvarezTech: Website {
     enum SectionID: String, WebsiteSectionID {
-//        case articles
+        case articles
         case tutorials
         case videos
         case basics
