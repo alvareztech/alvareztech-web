@@ -4,7 +4,7 @@ description: En este tutorial verás como gestionar los permisos para las versio
 tags: android, java
 date: 2017-04-23 08:00
 language: es
-image: tutorials/android/gestionar-permisos-android6-api23.png
+image: banners/gestionar-permisos-android6-api23.png
 ---
 
 Cuando se presentó Android 6.0 (API 23) se introdujo una nueva forma de gestionar los permisos en tiempo de ejecución, es decir cuando la aplicación lo requiera, no antes de instalar como se hacia en versiones anteriores.

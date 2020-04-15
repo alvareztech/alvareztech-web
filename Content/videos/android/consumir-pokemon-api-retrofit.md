@@ -4,6 +4,7 @@ description: Tutorial para crear una aplicación Pokédex desde cero.
 tags: android, retrofit, java, glide
 video.youTube: xQn8u4Htib4
 language: es
+image: banners/consumir-api-retrofit-pokedex.png
 ---
 
 Tutorial para crear una aplicación Pokédex desde cero. La aplicación usa *Retrofit* para consumir una API en Android. Además de hacer uso de *Glide* para descargar imágenes.

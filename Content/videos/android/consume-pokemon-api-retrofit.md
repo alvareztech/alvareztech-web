@@ -3,6 +3,7 @@ title: Consume an API, Web Service with Retrofit on Android
 description: Tutorial to create a Pokédex app from scratch.
 tags: android, retrofit, java, glide
 video.youTube: xQn8u4Htib4
+image: banners/consumir-api-retrofit-pokedex.png
 ---
 
 Tutorial to create a Pokédex app from scratch. The app uses Retrofit library to consume an API on Android. In addition to using Glide to download images.
