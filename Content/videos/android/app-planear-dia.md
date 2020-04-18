@@ -21,6 +21,4 @@ __Aprenderás__
 
 * [Realm Java documentation](https://realm.io/docs/java/6.0.2/)
 
-## Código
-
-* [Repositorio](https://github.com/alvareztech/PlanearDiaApp)
+[master es](https://github.com/alvareztech/PlanearDiaApp)

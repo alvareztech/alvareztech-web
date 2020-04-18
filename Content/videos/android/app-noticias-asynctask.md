@@ -394,9 +394,4 @@ Glide.with(context).load("http://www.ejemplo.com/foto.jpg")
                 .into(fotoImageView);
 ```
 
-## Código
-
-Código completo de la aplicación:
-
-* [Repositorio](https://github.com/alvareztech/android-app-noticias)
-* [Descargar](https://github.com/alvareztech/android-app-noticias/archive/master.zip)
+[master es](https://github.com/alvareztech/android-app-noticias)
