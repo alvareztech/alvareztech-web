@@ -65,11 +65,6 @@ Release numbers, more information and _Retrofit_ documentation:
 * [Website](http://square.github.io/retrofit/)
 * [Releases](https://github.com/square/retrofit/releases)
 
-## The Code
-
-The complete code:
-
-* [Repository](https://github.com/alvareztech/Pokedex)
-* [Download](https://github.com/alvareztech/Pokedex/archive/master.zip)
+[master](https://github.com/alvareztech/Pokedex)
 
 > The __master branch__ was updated with the migration of AndroidX and the update of gradle tools. If you want to see exactly the same version of the video, it is in the __video branch__.

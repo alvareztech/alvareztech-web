@@ -83,16 +83,13 @@ Menu creation (1.38)
 </menu>
 ```
 
-## The Code
-
-The complete code:
-
-* [Repository](https://github.com/alvareztech/BottomNavigationViewSample)
-* [Download](https://github.com/alvareztech/BottomNavigationViewSample/archive/master.zip)
+[master](https://github.com/alvareztech/BottomNavigationViewSample)
 
 > The updated version is in _master_ branch if you need exactly the video version you can use the _video_ branch.
 
 After you download or clone the project you can import it with the "Import Project" option from Android Studio.
+
+---
 
 ## Extra
 

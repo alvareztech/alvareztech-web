@@ -30,7 +30,7 @@ struct AlvarezTech: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
-try AlvarezTech().publish(withTheme: .twentyTwenty, additionalSteps: [], plugins: [.splash(withClassPrefix: ""), .ensureAllItemsAreTagged, .improveImages])
+try AlvarezTech().publish(withTheme: .twentyTwenty, additionalSteps: [], plugins: [.splash(withClassPrefix: ""), .ensureAllItemsAreTagged, .improveImages, .createGitHubButtons])
 //try AlvarezTech().publish(using: [
 //    .installPlugin(.splash(withClassPrefix: "")),
 //    .copyResources(),

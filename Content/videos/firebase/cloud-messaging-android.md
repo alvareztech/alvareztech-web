@@ -62,7 +62,4 @@ __Body__
 }
 ```
 
-## Código
-
-*  [Repositorio en GitHub](https://github.com/alvareztech/EjemploFCM) 
-*  [Descargar en ZIP](https://github.com/alvareztech/EjemploFCM/archive/master.zip) 
+[master es](https://github.com/alvareztech/EjemploFCM) 

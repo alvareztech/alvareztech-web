@@ -95,7 +95,4 @@ signInButton.setSize(SignInButton.SIZE_ICON_ONLY);
 signInButton.setColorScheme(SignInButton.COLOR_DARK);
 ```
 
-## Código
-
-* [Repositorio](https://github.com/alvareztech/GoogleSignInAndroid)
-* [Descargar](https://github.com/alvareztech/GoogleSignInAndroid/archive/master.zip)
+[master es](https://github.com/alvareztech/GoogleSignInAndroid)
