@@ -44,6 +44,4 @@ __AngularFire2__
 
 * [github.com/angular/angularfire](https://github.com/angular/angularfire)
 
-## The code
-
-* [Repository](https://github.com/alvareztech/maksha-web)
+[master](https://github.com/alvareztech/maksha-web)

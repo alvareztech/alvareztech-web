@@ -13,4 +13,4 @@ Graphical solution to the Towers of Hanoi from 1 to 8 pieces in Java. Desktop ap
 
 ![Finish](https://cloud.githubusercontent.com/assets/1444991/22934337/f5ea199a-f2a4-11e6-8b90-f620b98f16db.png)
 
-* [Repository](https://github.com/alvareztech/TowerOfHanoi)
+[master](https://github.com/alvareztech/TowerOfHanoi)

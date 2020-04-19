@@ -10,18 +10,27 @@ Un generador de código para clases _Java_ y _C#_. Esta aplicación genera las c
 
 > Actualmente los IDEs tiene muchas más opciones de generar código, por ejemplo IntelliJ IDEA, por lo tanto este proyecto queda como un ejemplo de código.
 
-![](https://user-images.githubusercontent.com/1444991/27011907-5719a884-4e94-11e7-8d37-4565f522b270.png)
-
-__More screenshots__
-
-[Screenshot 1](https://user-images.githubusercontent.com/1444991/27011907-5719a884-4e94-11e7-8d37-4565f522b270.png),
-[Screenshot 2](https://user-images.githubusercontent.com/1444991/27011906-57180b1e-4e94-11e7-98af-6eaedf83aa39.png),
-[Screenshot 3](https://user-images.githubusercontent.com/1444991/27011904-5714429a-4e94-11e7-9b8e-e8e35976b272.png),
-[Screenshot 4](https://user-images.githubusercontent.com/1444991/27011905-57164ed2-4e94-11e7-9190-cbf2ea80960c.png)
+<figure class="kg-card kg-gallery-card kg-width-wide">
+    <div class="kg-gallery-container">
+        <div class="kg-gallery-row">
+            <div class="kg-gallery-image">
+                <img src="https://user-images.githubusercontent.com/1444991/27011907-5719a884-4e94-11e7-8d37-4565f522b270.png">
+            </div>
+            <div class="kg-gallery-image">
+                <img src="https://user-images.githubusercontent.com/1444991/27011906-57180b1e-4e94-11e7-98af-6eaedf83aa39.png">
+            </div>
+        </div>
+        <div class="kg-gallery-row">
+            <div class="kg-gallery-image">
+                <img src="https://user-images.githubusercontent.com/1444991/27011904-5714429a-4e94-11e7-9b8e-e8e35976b272.png">
+            </div>
+            <div class="kg-gallery-image">
+                <img src="https://user-images.githubusercontent.com/1444991/27011905-57164ed2-4e94-11e7-9190-cbf2ea80960c.png">
+            </div>
+        </div>
+    </div>
+</figure>
 
 Este fue un proyecto que ayudo a ganar tiempo especialmente cuando se requería trabajar en modo consola. Podemos ver y descargar el código fuente de los siguientes enlaces.
 
-## The code
-
-* [Repositorio](https://github.com/alvareztech/GeneradorDeClases)
-* [Descargar](https://github.com/alvareztech/GeneradorDeClases/archive/master.zip)
+[master es](https://github.com/alvareztech/GeneradorDeClases)
