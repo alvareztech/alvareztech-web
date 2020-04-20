@@ -1,6 +1,6 @@
 ---
 title: Operativa: Queuing Theory
-description: na calculadora para Investigación Operativa o Investigación de Operaciones con todos los modelos de Teoría de Colas.
+description: Una calculadora para Investigación Operativa o Investigación de Operaciones con todos los modelos de Teoría de Colas.
 tags: google play, android, java
 date: 2017-06-08 08:00
 language: es
