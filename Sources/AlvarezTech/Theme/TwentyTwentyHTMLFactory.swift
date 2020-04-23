@@ -11,7 +11,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
                 .div(
                     .class("site-wrapper"),
                     .navigationBar(for: context, selectedSection: nil),
-                    .bigTitle("Hello! I am Daniel, a software engineer.", subtitle: "Here I share everything I do. Tutorials, code and more."),
+                    .bigTitle(context.site.title, subtitle: context.site.subtitle),
                     .main(
                         .class("site-main outer"),
                         .div(

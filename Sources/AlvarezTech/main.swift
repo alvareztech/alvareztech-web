@@ -27,6 +27,9 @@ struct AlvarezTech: Website {
     var language: Language { .english }
     var imagePath: Path? { "images/icon.png" }
     var stylesVersion = 2
+    
+    var title = "Hello! I am Daniel, a software engineer."
+    var subtitle = "Here I share everything I do. Tutorials, code and more."
 }
 
 // This will generate your website using the built-in Foundation theme:
