@@ -5,7 +5,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makeIndexHTML(for index: Index, context: PublishingContext<AlvarezTech>) throws -> HTML {
         HTML(
-            .head(for: index, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
+            .websiteHead(for: index, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("page-template"),
                 .div(
@@ -33,7 +33,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makeSectionHTML(for section: Section<AlvarezTech>, context: PublishingContext<AlvarezTech>) throws -> HTML {
         HTML(
-            .head(for: section, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
+            .websiteHead(for: section, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("page-template"),
                 .div(
@@ -59,7 +59,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     func makeItemHTML(for item: Item<AlvarezTech>, context: PublishingContext<AlvarezTech>) throws -> HTML {
         HTML(
             .lang(Language(rawValue: (item.metadata.language ?? Language.english.rawValue))!),
-            .head(for: item, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
+            .websiteHead(for: item, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("post-template"),
                 .div(
@@ -176,7 +176,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makePageHTML(for page: Page, context: PublishingContext<AlvarezTech>) throws -> HTML {
         HTML(
-            .head(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
+            .websiteHead(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("page-template"),
                 .div(
@@ -214,7 +214,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makeTagListHTML(for page: TagListPage, context: PublishingContext<AlvarezTech>) throws -> HTML? {
         HTML(
-            .head(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
+            .websiteHead(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("page-template"),
                 .div(
@@ -248,7 +248,7 @@ struct TwentyTwentyHTMLFactory: HTMLFactory {
     
     func makeTagDetailsHTML(for page: TagDetailsPage, context: PublishingContext<AlvarezTech>) throws -> HTML? {
         HTML(
-            .head(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
+            .websiteHead(for: page, on: context.site, stylesheetPaths: ["/styles.css?v=\(context.site.stylesVersion)"]),
             .body(
                 .class("page-template"),
                 .div(
