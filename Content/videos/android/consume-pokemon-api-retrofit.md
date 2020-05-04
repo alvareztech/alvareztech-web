@@ -33,7 +33,7 @@ __Google Chrome Extension (1:10)__
 URL to obtain the images of the pokemon by their number.
 
 ```html
-̶h̶t̶t̶p̶s̶:̶/̶/̶p̶o̶k̶e̶a̶p̶i̶.̶c̶o̶/̶m̶e̶d̶i̶a̶/̶s̶p̶r̶i̶t̶e̶s̶/̶p̶o̶k̶e̶m̶o̶n̶/̶2̶5̶.̶p̶n̶g̶
+~~https://pokeapi.co/media/sprites/pokemon/25.png~~
 ```
 
 __Update:__ The previous URL stopped working but you can get the image directly from the repository like this:
@@ -51,7 +51,7 @@ Pikachu is the pokemon number 25.
 2:02: Dependency to use *Retrofit* in the module `build.gradle`
 
 ```groovy
-c̶o̶m̶p̶i̶l̶e̶ ̶'̶c̶o̶m̶.̶s̶q̶u̶a̶r̶e̶u̶p̶.̶r̶e̶t̶r̶o̶f̶i̶t̶2̶:̶r̶e̶t̶r̶o̶f̶i̶t̶:̶2̶.̶1̶.̶0̶'̶
+~~compile 'com.squareup.retrofit2:retrofit:2.1.0'~~
 ```
 
 __Update:__ `compile` is _deprecated_ and there are new versions.
