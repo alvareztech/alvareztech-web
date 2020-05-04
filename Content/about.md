@@ -6,19 +6,7 @@ title: About
 
 I'm Daniel Alvarez, a software engineer. iOS, Android development trainer. Tech speaker.
 
-### Contact
-
-Comments, questions or feedback, happy to help you out!
-
-The best way to reach me is via [@alvarez_tech](https://twitter.com/alvarez_tech) on Twitter.
-
-* [GitHub](https://github.com/alvareztech)
-* [LinkedIn](https://www.linkedin.com/in/alvareztech/)
-
-You can also send me an email.
-
-* [daniel@alvarez.tech](mailto:daniel@alvarez.tech)
-
+[Contact me](/contact)
 
 ## About the website
 
