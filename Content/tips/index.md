@@ -1,4 +1,4 @@
 ---
 title: Tips
-description: Tips, tricks and code snippets.
+description: Tips, tricks and code snippets
 ---

@@ -12,6 +12,7 @@ struct AlvarezTech: Website {
         case tips
         case projects
         case talks
+        case courses
     }
     
     struct ItemMetadata: WebsiteItemMetadata {
