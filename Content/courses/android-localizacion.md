@@ -23,3 +23,13 @@ Curso semipresencial dictado en la Universidad Mayor de San Andrés mediante el 
 Del 17 de abril al 28 de abril del 2017.
 
 > Publicaré material del curso y más cursos dictados. Para más información sobre un curso puedes [contactarme](/contacto).
+
+## Recursos
+
+### Aplicaciones desarrolladas
+
+* [Mi punto en el mundo real](https://github.com/alvareztech/course-android-location-services-mi-punto)
+* [Planear Día](https://github.com/alvareztech/CourseALS20171-PlanearDia) (Google Maps, Google Places)
+* [Donde Estoy](https://github.com/alvareztech/CourseALS20171-DondeEstoy) (Google Places)
+* [Mi punto en el mundo super](https://github.com/alvareztech/CourseALS20171-Mipuntoenelmundosuper)
+* [Avísame](https://github.com/alvareztech/CourseALS20171-Avisame) (Geofence API)
