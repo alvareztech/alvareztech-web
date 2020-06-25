@@ -18,7 +18,7 @@ extension Tag {
             return "/icons/google.jpg"
         }
         switch self.string {
-        case "algorithm", "ignite", "api", "codelab", "owasp":
+        case "algorithm", "ignite", "api", "codelab", "owasp", "keytool":
             return "/icons/code.jpg"
         case "apple", "ios", "macos":
             return "/icons/apple.jpg"
